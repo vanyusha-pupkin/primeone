@@ -2,6 +2,11 @@
 //@include font-face("название","имя файла", "локальное имя 1", "локальное имя 2", вес шрифта, стиль);
 
 
+@include font-face("PTSans","PTSans-Regular", "PTSans", "PTSans-Regular", 400, normal);
+@include font-face("BebasNeue","BebasNeue-Regular", "BebasNeue", "BebasNeue-Regular", 400, normal);
+@include font-face("AkzidenzGroteskBQCondensed","AkzidenzGroteskBQCondensed-Bold", "AkzidenzGroteskBQCondensed Bold", "AkzidenzGroteskBQCondensed-Bold", 700, normal);
+
+
 // template
 // @include font-face("","", "", "", 400, normal);
 // @include font-face("","-ExtraLightItalic", " ExtraLightItalic", "-ExtraLightItalic", 200, italic);
