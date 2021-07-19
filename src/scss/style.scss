@@ -1,0 +1,19 @@
+@charset "utf-8";
+
+@import "global/_reset.scss";
+@import "global/_variables.scss";
+@import "global/_mixins.scss";
+@import "global/_fonts.scss";
+@import "global/_common.scss";
+@import "global/_animations.scss";
+
+@import "sassvg/_sassvg.scss";
+
+// @import "vendor/_lightgallery.scss";
+// @import "vendor/_swiper-bundle.min.scss";
+
+@import "blocks/common/**/*.scss";
+@import "blocks/unique/**/*.scss";
+
+
+

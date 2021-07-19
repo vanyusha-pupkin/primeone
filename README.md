@@ -1,7 +1,7 @@
-# Проект «Podbor Mebeli»
+# Проект «Primeone»
 
 ---
-## Ссылка на сайт - [https://vanyusha-pupkin.github.io/podbor-mebeli/](https://vanyusha-pupkin.github.io/---/)
+## Ссылка на сайт - [https://vanyusha-pupkin.github.io/primeone/](https://vanyusha-pupkin.github.io/---/)
 
 ## Как использовать
 

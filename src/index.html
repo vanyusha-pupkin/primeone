@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html class="page" lang="ru">
+
+    <!-------------------- head -------------------->
+
+@@include('html/_head.html', {
+  'title': ''
+})
+
+  <body class="page__body  page-body">
+    <div class="page__wrapper">
+
+
+      <!----------------- svg-sprite ----------------->
+<!--       <div class="visually-hidden">
+        @include('img/svg-sprite/sprite.svg')
+      </div> -->
+
+      <!------------------- header ------------------->
+      @@include('html/_header.html', {})
+
+      <!------------------- content ------------------>
+
+      <main class="page__main  page-main">
+
+<!-- intro -->
+
+<!-- advantages -->
+
+<!-- choose-us -->
+
+<!-- say-hello -->
+
+      </main>
+
+
+    <!------------------- footer ------------------->
+    @@include('html/_footer.html', {})
+
+    </div>  <!-- page-body__wrapper -->
+
+    <!---------------- modal-windows --------------->
+    <!-- @include('html/_modal.html', {}) -->
+
+    <!------------- script-connection -------------->
+    <script src="js/main.min.js"></script>
+
+  </body>
+</html>
