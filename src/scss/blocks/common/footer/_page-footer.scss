@@ -1,2 +1,38 @@
 .page-footer {}
 
+.page-footer__body {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 127px;
+
+  @media (max-width: $bp-3+px) {
+    min-height: 80px;
+  }
+
+  @media (max-width: $bp-4+px) {
+    flex-direction: column;
+
+    min-height: auto;
+    padding: 20px 0;
+  }
+}
+
+.page-footer__copyright {
+  flex: 0 0 50%;
+
+  @media (max-width: $bp-4+px) {
+    font-size: 12px;
+    text-align: center;
+  }
+}
+
+.page-footer__logo {
+  flex: 0 0 50%;
+
+  text-align: right;
+
+  @media (max-width: $bp-4+px) {
+    display: none;
+  }
+}
