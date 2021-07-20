@@ -1,10 +1,17 @@
-.page-footer {}
+.page-footer {
+  background-color: #999;
+}
 
 .page-footer__body {
   display: flex;
   justify-content: space-between;
   align-items: center;
   min-height: 127px;
+  padding: 0 5px;
+
+  @media (max-width: $bp-1+px) {
+    padding: 0;
+  }
 
   @media (max-width: $bp-3+px) {
     min-height: 80px;

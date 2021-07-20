@@ -1,1 +1,24 @@
-.button {}
+.button {
+  display: inline-block;
+  padding: 12.5px 32px;
+
+  font-family: "Bebas", "Arial", "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 19px;
+  line-height: 25px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: $color-white;
+
+  background-color: $color-black;
+
+  @media (max-width: $bp-3+px) {
+    font-size: 16px;
+  }
+
+  &--white {
+    color: $color-black;
+
+    background-color: $color-white;
+  }
+}
