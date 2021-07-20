@@ -38,8 +38,8 @@ $width-min: $w-min + px;
 // $bp-1: $w-max + ($p-w-max * 2);
 $bp-1: $w-max + ($p-bp-1 * 2);
 // $bp-2: 991.98;
-$bp-3: 767.98;
-$bp-4: 479.98;
+$bp-3: 768;
+$bp-4: 480;
 
 
 //RETINA
@@ -56,7 +56,7 @@ $color-grey: #ebebeb;
 //FONT
 $font-family-base: "PT Sans", "Arial", sans-serif;
 $font-size-base: 15px;
-$line-height-base: 25px;
+// $line-height-base: 25px;
 $font-weight-base: 400;
 $font-color-base: $color-black;
 
