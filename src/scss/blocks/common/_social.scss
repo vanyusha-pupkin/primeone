@@ -1,1 +1,17 @@
 .social {}
+
+.social__list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.social__item {
+  &:not(:last-child) {
+    margin-right: 31px;
+  }
+}
+
+.social__link {}
+
+.social__icon {}
+

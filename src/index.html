@@ -12,9 +12,9 @@
 
 
       <!----------------- svg-sprite ----------------->
-<!--       <div class="visually-hidden">
-        @include('img/svg-sprite/sprite.svg')
-      </div> -->
+      <div class="visually-hidden">
+        @@include('img/svg-sprite/sprite.svg')
+      </div>
 
       <!------------------- header ------------------->
       @@include('html/_header.html', {})
@@ -217,6 +217,114 @@
                 </li>
 
               </ul>
+            </div>
+          </div>
+        </section>
+
+        <section class="say-hello  section">
+          <div class="say-hello__top">
+            <div class="container">
+              <h2 class="say-hello__title  section__title">Say hello</h2>
+              <div class="say-hello__contacts  contacts">
+                <div class="contacts__column">
+                  <div class="contacts__item">
+                    <div class="contacts__icon">
+                      <svg width="20" height="29">
+                        <use xlink:href="#icon-pin"></use>
+                      </svg>
+                    </div>
+                    <div class="contacts__text  section__text">45-35 #B 39th St, Sunnyside, NY 11104</div>
+                  </div>
+                  <div class="contacts__item">
+                    <div class="contacts__icon">
+                      <svg width="20" height="25">
+                        <use xlink:href="#icon-telephone"></use>
+                      </svg>
+                    </div>
+                    <div class="contacts__text  section__text">(718) 777-7777</div>
+                  </div>
+                </div>
+                <div class="contacts__column">
+                  <div class="contacts__item">
+                    <div class="contacts__icon">
+                      <svg width="29" height="21">
+                        <use xlink:href="#icon-email"></use>
+                      </svg>
+                    </div>
+                    <div class="contacts__text  section__text">contact@primeone.com</div>
+                  </div>
+                  <div class="contacts__item  social">
+                    <ul class="social__list">
+                      <li class="social__item">
+                        <a class="social__link" href="#"></a>
+                        <div class="social__icon">
+                          <picture>
+                            <source type="image/webp" srcset="img/say-hello/icons/icon-facebook.webp">
+                            <img src="say-hello/icons/icon-facebook.png" alt="">
+                          </picture>
+                        </div>
+                      </li>
+                      <li class="social__item">
+                        <a class="social__link" href="#"></a>
+                        <div class="social__icon">
+                          <picture>
+                            <source type="image/webp" srcset="img/say-hello/icons/icon-twitter.webp">
+                            <img src="say-hello/icons/icon-twitter.png" alt="">
+                          </picture>
+                        </div>
+                      </li>
+                      <li class="social__item">
+                        <a class="social__link" href="#"></a>
+                        <div class="social__icon">
+                          <picture>
+                            <source type="image/webp" srcset="img/say-hello/icons/icon-instagram.webp">
+                            <img src="say-hello/icons/icon-instagram.png" alt="">
+                          </picture>
+                        </div>
+                      </li>
+                      <li class="social__item">
+                        <a class="social__link" href="#"></a>
+                        <div class="social__icon">
+                          <picture>
+                            <source type="image/webp" srcset="say-hello/icons/icon-google_plus.webp">
+                            <img src="say-hello/icons/icon-google_plus.png" alt="">
+                          </picture>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="say-hello__bottom  section__row">
+            <div class="say-hello__column  say-hello__column--image  section__column  section__column--image">
+              <div class="section__image">
+                <picture>
+                  <source type="image/webp" srcset="img/say-hello/map.webp">
+                  <img src="img/say-hello/map.jpg" alt="">
+                </picture>
+              </div>
+            </div>
+            <div class="section__column  section__column--content">
+              <div class="say-hello__form  say-hello-form">
+                <div class="say-hello-form__title section__subtitle">Get in touch</div>
+                <form class="say-hello-form__form"  action="#">
+                  <div class="say-hello-form__item">
+                    <input class="say-hello-form__input  section__text" type="text" name="name" placeholder="Name">
+                  </div>
+                  <div class="say-hello-form__item">
+                    <input class="say-hello-form__input  section__text" type="text" name="email" placeholder="E-mail or phone number">
+                  </div>
+                  <div class="say-hello-form__item">
+                    <textarea name="" class="say-hello-form__textarea  section__text" name="message" placeholder="Your message"></textarea>
+                  </div>
+                  <div class="say-hello-form__item">
+                    <button class="say-hello-form__button  button  button--white" type="submit">Send message</button>
+                  </div>
+                </form>
+              </div>
             </div>
           </div>
         </section>
