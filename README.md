@@ -1,7 +1,7 @@
 # Проект «Primeone»
 
 ---
-## Ссылка на сайт - [https://vanyusha-pupkin.github.io/primeone/](https://vanyusha-pupkin.github.io/---/)
+## Ссылка на сайт - [https://vanyusha-pupkin.github.io/primeone/](https://vanyusha-pupkin.github.io/primeone/)
 
 ## Как использовать
 

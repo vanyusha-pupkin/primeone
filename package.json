@@ -7,7 +7,7 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "https://vanyusha-pupkin.github.io/ActiveBox/"
+    "url": "https://vanyusha-pupkin.github.io/primeone/"
   },
   "scripts": {
     "start": "gulp watchFiles --dev",
