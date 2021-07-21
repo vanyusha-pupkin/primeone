@@ -26,6 +26,10 @@
 .page-footer__copyright {
   flex: 0 0 50%;
 
+  a {
+    text-decoration: underline;
+  }
+
   @media (max-width: $bp-4+px) {
     font-size: 12px;
     text-align: center;
